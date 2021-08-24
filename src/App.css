@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2em;
+  margin-right: 20em;
+}
+
+
+.navigationButton {
+  background: #21638f;
+  color: #fff;
+  border: 0.1rem solid #0d2c41;
+  padding: 0.55em 0.65em;
+  margin: 1rem;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigationButton:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.navigationButton:hover {
+  color: #0d2c41;
+}
+.navigationButton::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  transition: all 0.35s;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
+.navigationButton:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+.navigationButton.selected {
+  background: #ecf0f1;
+  color: #3498db;
+}
