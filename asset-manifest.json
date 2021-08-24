@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-styled-components/static/css/main.a66ae798.chunk.css",
+    "main.js": "/react-styled-components/static/js/main.f2d1b4ae.chunk.js",
+    "main.js.map": "/react-styled-components/static/js/main.f2d1b4ae.chunk.js.map",
+    "runtime-main.js": "/react-styled-components/static/js/runtime-main.71122619.js",
+    "runtime-main.js.map": "/react-styled-components/static/js/runtime-main.71122619.js.map",
+    "static/js/2.de6e9786.chunk.js": "/react-styled-components/static/js/2.de6e9786.chunk.js",
+    "static/js/2.de6e9786.chunk.js.map": "/react-styled-components/static/js/2.de6e9786.chunk.js.map",
+    "index.html": "/react-styled-components/index.html",
+    "static/css/main.a66ae798.chunk.css.map": "/react-styled-components/static/css/main.a66ae798.chunk.css.map",
+    "static/js/2.de6e9786.chunk.js.LICENSE.txt": "/react-styled-components/static/js/2.de6e9786.chunk.js.LICENSE.txt",
+    "static/media/1617739191_12-p-koshka-oboi-plachushchii-kot-17.4e11c9f2.png": "/react-styled-components/static/media/1617739191_12-p-koshka-oboi-plachushchii-kot-17.4e11c9f2.png",
+    "static/media/5430624-cat-friendly-properties-happy-cat-free-transparent-png-happy-cat-png-820_678.89051335.png": "/react-styled-components/static/media/5430624-cat-friendly-properties-happy-cat-free-transparent-png-happy-cat-png-820_678.89051335.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71122619.js",
+    "static/js/2.de6e9786.chunk.js",
+    "static/css/main.a66ae798.chunk.css",
+    "static/js/main.f2d1b4ae.chunk.js"
+  ]
+}
